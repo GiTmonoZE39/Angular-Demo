@@ -1,0 +1,115 @@
+body{
+    background-image: url(b1.jpg);
+    text-align: center;
+    
+}
+#head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(211, 82, 7);
+    color: rgb(0, 0, 0);
+    text-shadow: #ed5d03;
+    border-style: ridge;
+    border-color: brown;
+    position: absolute;
+    top: 3%;
+    left: 41%;
+    border-radius: 20px;   
+    padding: 4px;
+}
+#head2{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    background: rgb(243, 150, 255);
+    border-style: dashed;
+    border-radius: 30px;
+    width: 12%;
+    
+}
+.box{
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: rosybrown;
+    background: #72dae7;
+    border: 20px;
+    padding: 15px;
+    color: brown;
+    font-size: large;
+    text-align: left;
+    position: absolute;
+    top: 16%;
+    left: 40%;
+
+}
+#name1{
+    border-radius: 20px;
+    border: 1px solid #999;
+    padding: 12px;
+    margin-bottom: 6px;
+    
+}
+
+#name2{
+    border-radius: 20px;
+    border: 1px solid #999;
+    padding: 12px;
+    margin-bottom: 8px;
+    
+}
+
+.gend{
+    padding: -60px;
+}
+.emailwidth{
+    width: 100%;
+
+}
+.passwidth{
+    margin-top: -10px;
+    width: 100%;
+}
+
+#cockie{
+    margin-top: -10px;
+    font-size: 12px;
+    text-align: center;
+}
+#checkbox{
+    margin-top: -8px;
+}
+
+.join{
+    width: 100%;
+}
+
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    text-align: center;
+    background: #72dae7;
+    width: 40px;
+    margin: -19px auto 10px;
+    font-size: medium;
+}
+
+.last{
+    margin-top: 10px;
+    font-size: small;
+    text-align: center;
+    margin: 3px;
+    margin-bottom: -4px;
+}
+
+#end{
+    color: whitesmoke;
+    text-align: center;
+    margin-top:-1.7%;
+  
+}
+
+
+
+
+

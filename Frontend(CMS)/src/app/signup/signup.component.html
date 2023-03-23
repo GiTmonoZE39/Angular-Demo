@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <h1 id="head">Welcome To Call Of Duty: Ghost</h1>
+    <h2 id="head2"><strong>JOIN OUR TEAM!</strong></h2>
+    
+    
+</body>
+<div class="box">
+    
+        <label for="fname" >First Name: </label><br>
+        <input type="text" id="name1" size="40" placeholder="Write your first name!"><br>
+        <label for="lname" >Last Name: </label><br>
+        <input type="text" id="name2"  size="40" placeholder="Write your last name!"><br>
+    
+    
+
+    <p >
+        Select Gender:
+        <mat-button-toggle-group class="gend" name="Gender" aria-label="Gender">
+          <mat-button-toggle value="Male">Male</mat-button-toggle>
+          <mat-button-toggle value="Female">Female</mat-button-toggle>
+          <mat-button-toggle value="Can't Say" routerLink="/user">Can't Say</mat-button-toggle>
+        </mat-button-toggle-group>
+    </p>
+
+      <mat-form-field class="emailwidth">
+        <mat-label>Email</mat-label>
+        <input type="email" matInput placeholder="Ex. polarbear@example.com" >
+      </mat-form-field>
+      <mat-form-field class="passwidth">
+        <mat-label>Password</mat-label>
+        <input type="password" matInput placeholder="spiderman@69" >
+      </mat-form-field>
+
+      <p id="cockie"><span><input type="checkbox" id="checkbox"></span> By clicking the checkbox, you agree to 
+        <strong>Ghost's User Agreement, Privacy Policy, and Cookie Policy</strong> 
+      </p>
+        
+        <button class="join" mat-raised-button color="accent">Sign Up</button>
+        
+        <hr>
+        <p class="or">OR</p>
+        <button class="join" mat-raised-button color="primary">Continue with Facebook</button>
+
+        <p class=" last">
+            Already a Soldier? <a href="http://localhost:4200/signin">Sign in</a>
+        </p>
+</div>
+<p id="end">COD:Ghost Corporation @2023</p>
+
+
+
+</html>

@@ -1,0 +1,98 @@
+*{
+    text-align: center;
+}
+body{
+    background-image: url(b3.jpeg);
+    background-size: 1600px ;
+    text-align: center;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(211, 82, 7);
+    color: rgb(0, 0, 0);
+    text-shadow: #ed5d03;
+    border-style: ridge;
+    border-color: brown;
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: rgb(211, 82, 7);
+    color: rgb(0, 0, 0);
+    text-shadow: #ed5d03;
+    border-style: ridge;
+    border-color: brown;
+    position: absolute;
+    top: 3%;
+    left: 42.3%;
+    border-radius: 20px;   
+    padding: 4px;
+    border-radius: 20px;   
+    padding: 4px;
+    width: 200px;
+}
+h2{
+    position: absolute;
+    top: 10%;
+    left: 45.4%;
+    background: rgb(67, 100, 232);
+    border-style: dashed;
+    width: 100px;
+    border-radius: 20px;
+}
+.mainbox{
+    border-radius: 10px;
+    width: 320px;
+    box-shadow: rosybrown;
+    background: #87d22c;
+    border: 20px;
+    padding: 15px;
+    color: brown;
+    font-size: large;
+    text-align: left;
+    position: absolute;
+    top: 16%;
+    left: 38%;
+}
+#email{
+    width: 100%;
+}
+#pass{
+    width: 100%;
+    margin-top: -10px;
+}
+#forgot{
+    padding: -150px;
+    width: 100%;
+    margin-top: -10px;
+}
+#remember{
+    margin-top: 10px;
+}
+
+#login{
+    width:100%;
+    margin-top: 10px;
+    
+}
+
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    text-align: center;
+    background: #87d22c;
+    width: 40px;
+    margin: -19px auto 10px;
+    font-size: medium;
+}
+
+#newacc{
+    width: 100%;
+    padding: -600px;
+}
+#end{
+    color: rgb(212, 240, 220);
+    text-align: center;
+    margin-top: -15.4%;
+}
+
